@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat Alternates", sans-serif;
+    width: 100%;
+}
+
+.head{
+    background-color: #ACEF6A;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 126px;
+}
+
+.main{
+    background-image: url("./img2/bc3.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pictures{
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.pic{
+    padding: 10px;
+}
+
+.zapis{
+    background-color: #C8E4F5;
+    max-height: 972px;
+    padding-top: 90px;
+    padding-bottom: 230px;
+}
+
+.zapis12{
+    justify-content: center;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;  
+   margin-bottom: 75px; 
+}
+.zapis1{
+    padding: 50px 5px 10px 50px;
+}
+.zapis2{
+    padding: 50px 50px 10px 5px;
+}
+.okno{
+    background-color: #ffffff;
+    max-height: 438px;
+    max-width: 1130px;
+    margin: auto;
+    font-size: 24px;
+    border-radius: 60px;
+    justify-content: center;
+   padding: 50px;
+     align-items: center;
+     justify-content: space-between;
+     margin-top: 110px;
+     
+}
+.ooo{
+    align-items: center;
+    display: flex;
+}
+.kurs{
+    font-size: 24px;
+    min-width: 440px;
+    background-color:#F2F2F2;
+    color: #B0B0B0;
+    border: none;
+    border-radius: 25px;
+    padding: 25px;
+
+}
+.button{
+    background-color: #ACEF6A;
+   height: 107px;
+   width: 440px;
+  margin-right: auto;
+  margin-left: auto;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 48px;
+    padding: 28px;
+    font-size: 48px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+   
+}
+
+.podval{
+    background-color: #ACEF6A;
+    max-height: 325px;
+padding: 30px;
+ 
+}
+
+.text1{
+    font-size: 50px;
+  
+}
+.text11{
+    text-align: center;
+    padding: 110px;
+    width: 900px;
+    margin-left: 150px;
+    max-width: 900px;
+
+}
+.text12{
+    text-align: center;
+    padding: 60px;
+    max-width: 900px;
+    margin-top: 100px;
+   margin-left: 500px;
+}
+.text13{
+    text-align: center;
+    padding: 60px;
+    max-width: 900px;
+    margin-top: 300px;
+   margin-left: 50px;
+}
+.text2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 230px;
+    margin-bottom: 110px;
+}
+.text22{
+    font-size: 40px;
+    text-align: center;
+    padding: 43px;
+    margin: auto;
+    max-width: 1139px;
+}
+.zagolovok{
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+   
+    
+}
+.qa{
+    margin: 100px 280px 180px 280px;
+    text-align: center;
+  
+
+}
+
+.question-row{
+    display: flex;
+    flex-direction: column;
+}
+.vopros{ 
+    font-size: 40px;
+    font-weight: bold;
+    max-height: 120px;
+    align-items: center;
+    display: flex;
+    margin-top: 35px;
+ 
+}
+.vopros img{
+    margin-right: 10px;
+}
+.otvet{
+    font-size: 24px;
+ text-align: left;
+    padding: 35px 50px 50px 54px;
+
+}
+
+.polosa:last-child{
+    margin-bottom: 200px;
+}
+.polosa{
+    background-color: #C8E4F5;
+    height: 13px;
+
+    width: 100%;
+    text-align: center;
+}
+.textp{
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.end{
+   text-align: center;
+    font-size: 24px;
+}
+.yu{
+    margin-top: -300px;
+    margin-bottom: -100px;
+}
+.ew{
+    text-align: right;
+    margin-left: 1400px;
+    justify-content: end;  
+ 
+}
+
+
+@media (max-width: 1440px) {
+    .text11{
+        width: 600px;
+    }
+
+    .text12{ 
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .ew{ 
+        margin-left: 900px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+  
+    .ew{ 
+        margin-left: 500px;
+    }
+
+    .text1{
+        font-size: 36px;
+    }
+
+    .text2{
+        font-size: 36px;
+    }
+
+    .text22{
+        font-size: 36px;
+    }
+
+    .zagolovok{
+        font-size: 45px;
+    }
+
+    .button{
+        font-size: 45px;
+    }
+
+    .okno{
+        max-width: 900px;
+        max-height: 350px;
+    }
+    .zapis12{display: flex;
+        flex-direction: column;
+        align-items: center;}
+
+
+  .zapis1{padding: 0;}
+    .zapis2{padding: 0;
+    margin-top: 20px;
+ margin-bottom: 100px;}
+    .qa{
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        .otvet{
+            font-size: 20px;}
+            .vopros{ 
+                font-size: 36px;}
+    
+
+
+}
+
+@media (max-width: 768px) {
+    .ew{ display: none;}
+}
+
+@media (max-width: 425px) {
+    body{
+        background-color: #cb3131;
+    }
+}
+
+.okno{
+    max-width: 600px;
+    max-height: 350px;
+}
+@media (max-width: 375px) {
+    body{
+        background-color: #cb3131;
+    }
+}
+
+
+@media (max-width: 320px) {
+    body{
+        background-color: #cb3131;
+    }
+}
+
+
