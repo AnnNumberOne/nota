@@ -294,9 +294,6 @@ padding: 30px;
 }
 
 @media (max-width: 425px) {
-    body{
-        background-color: #cb3131;
-    }
 .okno{
     max-width: 600px;
     max-height: 350px;
