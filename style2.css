@@ -303,17 +303,6 @@ padding: 30px;
     max-width: 600px;
     max-height: 350px;
 }
-@media (max-width: 375px) {
-    body{
-        background-color: #cb3131;
-    }
-}
-
-
-@media (max-width: 320px) {
-    body{
-        background-color: #cb3131;
-    }
 }
 
 
